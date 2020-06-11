@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "404165165936",
+    "firebase_url": "https://motshelo-cash.firebaseio.com",
+    "project_id": "motshelo-cash",
+    "storage_bucket": "motshelo-cash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404165165936:android:1d21d784eb6417ea66c5b5",
+        "android_client_info": {
+          "package_name": "com.example.motshelo_cash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404165165936-kfqa9hai2s0bdke49qa1emd9jvprtlfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAho9005cHQeiflz9yG8iIno6FIDovPVwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404165165936-kfqa9hai2s0bdke49qa1emd9jvprtlfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
