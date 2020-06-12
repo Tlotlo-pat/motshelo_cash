@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:motshelo_cash/screens/plans/group/choose.dart';
+import 'package:motshelo_cash/screens/plans/group/register.dart';
 import 'package:motshelo_cash/screens/welcome_screen.dart';
 import 'package:motshelo_cash/screens/wrapper.dart';
 import 'package:motshelo_cash/services/auth.dart';
@@ -19,7 +21,11 @@ class MotsheloCash extends StatelessWidget {
          child: MaterialApp(
             debugShowCheckedModeBanner: false,
             home: Wrapper(), 
+              routes: <String, WidgetBuilder>{
+          '/choose':(BuildContext context)=>Choose(),
+          '/register':(BuildContext context)=>RegisterGroupPage(),
+        }
       ),
-    );
+    ); 
   }
 }

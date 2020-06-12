@@ -29,6 +29,7 @@ dependencies:
   provider: ^3.1.0
   get_it: ^3.0.3
   flutter_staggered_animations: ^0.1.2
+  flutter_form_builder: ^3.4.1  
   dash_chat: ^1.1.8
   flutter_spinkit: "^4.0.0"
   splashscreen : 1.2.0

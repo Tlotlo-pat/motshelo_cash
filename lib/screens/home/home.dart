@@ -17,7 +17,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
 
     final AuthService _auth  = AuthService();
-  int _currentIndex = 0;
+  int _currentIndex = 1;
   final int selectedIndex = 0;
   final FirebaseAuth _authi = FirebaseAuth.instance;
    FirebaseUser user;
@@ -94,7 +94,7 @@ class _HomeState extends State<Home> {
                   //mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   // IconButton(icon: Icon(Icons.group), onPressed: (){}, iconSize: 100,),
                   // IconButton(icon: Icon(Icons.person), onPressed: (){}, iconSize: 100, labelText)
-                  FlatButton(textColor: Colors.white,padding:EdgeInsets.all(35),onPressed: (){},color: Colors.teal[300],shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(5.0)),
+                  FlatButton(textColor: Colors.white,padding:EdgeInsets.all(35),onPressed: (){ Navigator.pushNamed(context, "/choose");},color: Colors.teal[300],shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(5.0)),
                    child: Column(children: <Widget>[
                    Icon(Icons.group),Text('Group Savings'),
                   ],),),
